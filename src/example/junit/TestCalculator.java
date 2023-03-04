@@ -2,10 +2,6 @@ package junit;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.junit.jupiter.MockitoExtension;
-import org.junit.jupiter.api.extension.ExtendWith;
-
-@ExtendWith(MockitoExtension.class)
 public class TestCalculator {
  
 	private math.Calculator calc;
